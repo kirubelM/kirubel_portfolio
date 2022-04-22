@@ -12,22 +12,21 @@ const NavBar = (props) => {
     });
   }
   const closeNav = () => {
-    // setIsOpen(!isOpen);
-    // props.handleNavClick()
-
+    setIsOpen(!isOpen);
+    props.handleNavClick()
   }
   return (
     <div className={`navbar ${isOpen && "open"}`} >
       <div className="left-nav">
         <a href="#intro"> <img src={KM_LOGO} alt="KM Logo" id="logo-img"></img></a>
       </div>
-      <div className={`nav-items ${isOpen && "open"}`} onClick={closeNav}>
-        <a href="#intro" >Intro</a>
-        <a href="#about">About</a>
-        <a href="#tools">Tools</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href={Resume} target="_blank">Resume</a>
+      <div className={`nav-items ${isOpen && "open"}`} >
+        <a href="#intro" onClick={closeNav}>Intro</a>
+        <a href="#about" onClick={closeNav}>About</a>
+        <a href="#tools" onClick={closeNav}>Tools</a>
+        <a href="#projects" onClick={closeNav}>Projects</a>
+        <a href="#contact" onClick={closeNav}>Contact</a>
+        <a href={Resume} target="_blank" onClick={closeNav}>Resume</a>
       </div>
       <div className={`nav-toggle ${isOpen && "open"}`} onClick={handleNavClick}>
         <div className="bar">

@@ -9,11 +9,11 @@
 }
 
 a {
-  color: rgb(32, 140, 180);
+  color: #59b256;
 }
 .icon:hover {
   /* background-color: #59b256; */
-  color: #59b256;
+  color: rgb(32, 140, 180);
 }
 .c-left {
   align-items: flex-start;
