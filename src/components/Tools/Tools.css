@@ -1,0 +1,149 @@
+.tools-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin: 2rem 1rem;
+  padding-top: 2.5rem;
+  /* gap: 1rem; */
+}
+.tools-wrappers {
+  /* padding-top: 5rem; */
+
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 8rem 0;
+  gap: 10rem;
+  flex-wrap: wrap;
+}
+.t-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #59b256;
+  align-items: center;
+}
+
+.tools-icon {
+  color: #54d450;
+  font-size: 3em;
+  border-radius: 10%;
+  width: 2.1em;
+  height: 2.1em;
+  text-align: center;
+  /* display: inline-block; */
+}
+
+.tools-icon:hover {
+  transform: translateY(-20px);
+  transition: 0.3s;
+  color: steelblue;
+}
+.tools-text {
+  color: #68b36574;
+  font-size: 1.3rem;
+  position: absolute;
+  /* padding: 6.8rem; */
+  width: 100%;
+  height: 3rem;
+  padding-left: 10rem;
+  padding-top: 5rem;
+}
+.figma {
+  padding-left: 27%;
+  padding-top: 3.2%;
+  position: absolute;
+  font-size: 1.3rem;
+}
+.github {
+  padding-left: 12%;
+  padding-top: 1%;
+  position: absolute;
+}
+.html {
+  padding-left: 47%;
+  padding-top: 1.7%;
+  /* position: absolute; */
+  font-size: 1.7rem;
+}
+.node {
+  padding-left: 67%;
+  padding-bottom: 3.3%;
+  /* position: absolute; */
+  font-size: 1.2rem;
+}
+.css {
+  padding-left: 9%;
+  padding-top: 0.4%;
+  position: absolute;
+  font-size: 1.1rem;
+}
+.git {
+  padding-left: 25%;
+  padding-top: 3.7%;
+  position: absolute;
+  font-size: 1.7rem;
+}
+.es {
+  padding-left: 40%;
+  padding-top: 1.7%;
+  position: absolute;
+  font-size: 2rem;
+}
+.react {
+  padding-left: 55%;
+  padding-top: 1.7%;
+  position: absolute;
+  font-size: 1rem;
+}
+.firebase {
+  padding-left: 57%;
+  padding-top: 8%;
+  position: absolute;
+  font-size: 2.1rem;
+}
+.acs {
+  padding-left: 38%;
+  padding-top: 7.6%;
+  position: absolute;
+  font-size: 1.2rem;
+}
+.shopify {
+  padding-left: 17%;
+  padding-top: 5.7%;
+  position: absolute;
+  font-size: 1.7rem;
+}
+.java {
+  padding-left: 72%;
+  padding-top: 1.7%;
+  position: absolute;
+  font-size: 1.7rem;
+}
+@media (max-width: 700px) {
+  .tools-wrappers {
+    gap: 0.4rem;
+  }
+  .tools-icon {
+    width: 3rem;
+    font-size: 2.5em;
+  }
+  .tools-wrappers {
+    margin: 3rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .tools-wrappers {
+    gap: 4rem;
+  }
+  .tools-icon {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tools-text {
+    display: none;
+  }
+}

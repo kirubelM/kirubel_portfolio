@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  /* margin-top: 1rem; */
+  padding-left: 0.1rem;
+}
+.icon {
+  font-size: 2rem;
+}
+
+a {
+  color: rgb(32, 140, 180);
+}
+.icon:hover {
+  /* background-color: #59b256; */
+  color: #59b256;
+}
+.c-left {
+  align-items: flex-start;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    /* align-items: flex-start; */
+    margin-bottom: 1rem;
+  }
+  /* .c-left {
+    align-items: flex-start;
+  } */
+}
