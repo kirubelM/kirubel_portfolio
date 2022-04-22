@@ -23,7 +23,6 @@ function App() {
         backgroundColor: darkMode ? "#222" : "#fff",
         color: darkMode ? "#fff" : "#222",
       }}>
-      {/* <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
       <NavBar className="n-nav" handleNavClick={changeNav} />
       <Toggle />
       <div className={`main-wrapper ${navOpen && "open"}`}>
