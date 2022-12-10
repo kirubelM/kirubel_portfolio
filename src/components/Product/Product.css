@@ -11,7 +11,7 @@
   background-color: rgb(173 173 173);
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   position: sticky;
   z-index: 2;
 }
