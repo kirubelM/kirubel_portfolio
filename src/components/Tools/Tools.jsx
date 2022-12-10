@@ -16,7 +16,7 @@ function Tools() {
         <h3 className="react">React</h3>
         <h3 className="firebase">Firebase</h3>
         <h3 className="acs">Adobe Creative Suite</h3>
-        <h3 className="shopify">Shopify</h3>
+        <h3 className="shopify">Next.Js</h3>
         <h3 className="java">Java</h3>
 
       </div>
