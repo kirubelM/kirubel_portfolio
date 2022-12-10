@@ -4,6 +4,7 @@ import Third from "../src/img/Home_LK-_3.png";
 import Fourth from "../src/img/river_bend.png";
 import Fifth from "../src/img/TGTF_2.png";
 import Sixth from "../src/img/RIBCO_cr.png";
+// import anbessa from "../src/img/anbessa_sc.png";
 export const products = [
   {
     id: 3,
