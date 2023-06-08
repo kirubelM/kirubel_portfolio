@@ -21,6 +21,7 @@ export const products = [
   {
     id: 2,
     img: Cryptopia,
+    link: "https://cryptopia-delta.vercel.app/",
     alt: "Cryptopia cryptocurrency info and portfolio tracker app",
   },
   // {
