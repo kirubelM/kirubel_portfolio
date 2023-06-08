@@ -5,6 +5,7 @@ import First from "../src/img/New_Health_1.png";
 // import Fifth from "../src/img/TGTF_2.png";
 import Sixth from "../src/img/RIBCO_cr.png";
 import anbessa from "../src/img/anbessa_sc.PNG";
+import Cryptopia from "../src/img/Cryptopia.png";
 export const products = [
   {
     id: 3,
@@ -18,9 +19,9 @@ export const products = [
   //   link: "",
   // },
   {
-    id: 1,
-    img: First,
-    alt: "NHHS website",
+    id: 2,
+    img: Cryptopia,
+    alt: "Cryptopia cryptocurrency info and portfolio tracker app",
   },
   // {
   //   id: 4,
