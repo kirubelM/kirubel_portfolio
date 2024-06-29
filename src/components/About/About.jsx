@@ -7,9 +7,10 @@ const About = () => {
     <div className="about" id="about">
       <div className='about-text'>
         <h1 className="a-title">About Me</h1>
-        <p className="a-subtitle">As a Fullstack Engineer with a Bachelor's in Computer Science and Graphic Design and experience creating web applications, I am dedicated to delivering innovative and user-friendly solutions.
+        <p className="a-subtitle">As a Frontend Engineer with a Bachelor's degree in Computer Science and Graphic Design, I bring over 3 years of experience in creating user-friendly web applications. <br></br>My expertise lies in delivering innovative solutions that enhance user experiences.
+          .
         </p>
-        <p className="a-subtitle-2"> I am passionate about Web3, decentralized finance, and the blockchain industry. Feel free to reach out to x  connect and discuss potential opportunities or learn more about my experience and interests.
+        <p className="a-subtitle-2"> I am passionate about Web3, decentralized finance, and the blockchain industry. <br></br>Feel free to reach out to collaborate or learn more about my experience and interests.
         </p>
         <div className="award">
           <img src={AK_AWARD} alt="" className="ak-image" />

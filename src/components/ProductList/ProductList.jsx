@@ -10,7 +10,7 @@ const ProductList = () => {
       <div className="prod-list__texts">
         <h1 className="prod-list__title">Projects</h1>
         <p className="prod-list__desc">
-          Here are a few projects I've worked on recently. Want to see more? <a href="#contact" ><strong>Email me!</strong></a>
+          Here are a few personal projects I've worked on recently. Want to see more? <a href="#contact" ><strong>Email me!</strong></a>
         </p>
       </div>
       <div className="product-list">
